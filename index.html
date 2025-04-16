@@ -14,15 +14,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_upward" />
+
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
-    <header>
+    <header id="haut">
         <div>
             <h1>Les liens Web</h1>
-            <a href="#">Liens vers le bas de page</a>
+            <a  href="#photos">Liens vers le bas de page</a>
         </div>
     </header>
 
@@ -63,24 +65,24 @@
 
             <div class="images">
 
-                <a href="#">
+                <a href="/pdf/html-cheatsheet.pdf">
                     <img src="images/web/html.png" alt="HTML">
                     <span>Guide selecteur CSS(PDF relatif à la racine)</span>
                 </a>
 
-                <a href="#">
+                <a href="pdf/css3-cheatsheet.pdf" download="tricheur.pdf">
                     <img src="images/web/sass.png" alt="Sass">
                     <span>Guide selecteur CSS(PDF relatif)</span>
                 </a>
 
-                <a href="#">
+                <a href="pdf/typescript.pdf">
                     <img src="images/web/typescript.png" alt="Typescript">
                     <span>Typescript (PDF absolu)</span>
                 </a>
 
             </div>
 
-            <div class="lien_float"><a href="#">Information
+            <div class="lien_float"><a href=" http://www.htmq.com/style/float.shtml " hreflang="ja">Information
                 sur le float CSS</a></div>
 
         </div>
@@ -94,15 +96,15 @@
             <p>J'aime aussi prend le temps de prendre des clichés de mon important de ma vie.</p>
 
             <div class="images">
-                <a href="#">
+                <a href="mailto:2439328@cegepmontetit.ca">
                     <img src="images/photos/icon_mail.png" alt="Couriel">
                     <span>envoyez-moi un courriel</span>
                 </a>
-                <a href="#">
+                <a href="tel: +1-514-277-6020">
                     <img src="images/photos/icon_tel.png" alt="Téléphone">
                     <span>Appellez-moi</span>
                 </a>
-                <a href="#">
+                <a href="autres/lens.eps">
                     <img src="images/photos/icon_lens.png" alt="Lens">
                     <span>Icon (format eps)</span>
                 </a>
@@ -110,5 +112,11 @@
 
         </div>
     </section>
+
+    <a href="#haut"  class="haut">
+        <span class="material-symbols-outlined">
+            arrow_upward
+            </span>
+    </a>
 </body>
 </html>
