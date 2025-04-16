@@ -15,8 +15,41 @@ html{
 /*------------------------------------------------------------------------------
    Base
 ------------------------------------------------------------------------------*/
-
-
+body{
+    background-image: url(../images/fond/global.png);
+    background-color: #000;
+    font: normal 400 1.6rem "Oranienbaum", serif;
+    color: #fff;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    color: darkorange;
+}
+header, section{
+    min-height: 100vh;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    text-align: center;
+    position: relative;
+}
+header a{
+    position: absolute;
+    bottom: 40px;
+    transform: translateX(-50%);
+}
+.boite{
+    width: 800px;
+    padding: 48px;
+    background-color: #00000080;
+    border-radius: 10px;
+    margin: auto;
+}
 
 
 
